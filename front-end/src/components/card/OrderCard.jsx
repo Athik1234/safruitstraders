@@ -222,7 +222,7 @@ class OrderCard extends React.Component {
               <Typography color="textSecondary" paragraph><i><b>To :</b></i> {this.state.customer.address}, {this.state.customer.city}, {this.state.customer.state}, {this.state.customer.zip}</Typography>
               <Divider />
               <Typography color="textSecondary" paragraph><i><b>Customer contact :</b></i> {this.state.customer.phoneNumber}</Typography>
-              <Typography color="textSecondary" paragraph><i><b>Restaurant contact :</b></i> {this.state.greengrocer.phoneNumber}</Typography>
+              <Typography color="textSecondary" paragraph><i><b>Greengrocer contact :</b></i> {this.state.greengrocer.phoneNumber}</Typography>
               {this.state.driver ? <Typography color="textSecondary" paragraph><i><b>Driver contact :</b></i> {this.state.driver.phoneNumber}</Typography> : null}
               {this.props.order.startTime === null ? (
                 <Typography paragraph><i>Waiting for checking out...</i></Typography>
