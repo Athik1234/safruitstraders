@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="C:\Users\Blesson Daniel\Desktop\Blesson\Product Batch training\fruits and vegetables-deliver-app-main\target/classes/public">
+    <fileset dir="C:\Users\Blesson Daniel\Desktop\Blesson\Product Batch training\fruits and vegetables-deliver-app-main/front-end/build"/>
+  </copy>
+</target>
+</project>
