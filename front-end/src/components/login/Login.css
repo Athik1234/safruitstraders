@@ -1,0 +1,28 @@
+body{
+  background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+.container {
+  margin: 30px;
+  text-align: center;
+}
+
+.icon {
+  color: #1afa12
+}
+
+.link, .link:visited {
+  color: #1E90FF;
+}
+
+.link:hover {
+  color: #00008B;
+}
